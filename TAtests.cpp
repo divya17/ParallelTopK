@@ -44,9 +44,9 @@ int main()
 {
 
 	vector<CPostingList*> posting_list_vector;
-	string file1 = "/home/divya/Desktop/GuidedResearch/Dataset/postingList1-1000.txt";
-	string file2 = "/home/divya/Desktop/GuidedResearch/Dataset/postingList2-1000.txt";
-	string file3 = "/home/divya/Desktop/GuidedResearch/Dataset/postingList3-1000.txt";
+	string file1 = "postingList1-1000000.txt";
+	string file2 = "postingList2-1000000.txt";
+	string file3 = "postingList3-1000000.txt";
 
 	posting_list_vector.push_back(GeneratePostingListFromFile(file1));
 	posting_list_vector.push_back(GeneratePostingListFromFile(file2));
